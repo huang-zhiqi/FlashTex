@@ -89,7 +89,7 @@ class SDSControlLoss(nn.Module):
             scheduler=self.scheduler, requires_safety_checker=False,
             safety_checker=None, feature_extractor=None
         )
-        self.pipe.enable_xformers_memory_efficient_attention()
+        # self.pipe.enable_xformers_memory_efficient_attention()
 
         self.pipe.enable_model_cpu_offload()
 
