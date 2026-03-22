@@ -510,7 +510,7 @@ class Optimizer3D:
         self.exporter = MeshExporter({"save_name": "output_mesh",
                                      "context_type": "cuda",
                                      "texture_format": "png",
-                                     "texture_size": 2048,
+                                     "texture_size": 1024,
                                      "unwrap_uv": self.unwrap_uv,
                                      "save_normal": True,
                                     }, 
